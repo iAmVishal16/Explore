@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AA198DA2A34DF3200C4D18F /* space.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA198D92A34DF3200C4D18F /* space.ttf */; };
+		2AA198DD2A34E04D00C4D18F /* fasthand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA198DC2A34E04D00C4D18F /* fasthand.ttf */; };
 		2AF1EA362A129AC000674743 /* ExploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1EA352A129AC000674743 /* ExploreApp.swift */; };
 		2AF1EA382A129AC000674743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1EA372A129AC000674743 /* ContentView.swift */; };
 		2AF1EA3A2A129AC200674743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1EA392A129AC200674743 /* Assets.xcassets */; };
 		2AF1EA3D2A129AC200674743 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1EA3C2A129AC200674743 /* Preview Assets.xcassets */; };
+		2AF1EA482A14CEAF00674743 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1EA472A14CEAF00674743 /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AA198D92A34DF3200C4D18F /* space.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = space.ttf; sourceTree = "<group>"; };
+		2AA198DB2A34DF4000C4D18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2AA198DC2A34E04D00C4D18F /* fasthand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fasthand.ttf; sourceTree = "<group>"; };
 		2AF1EA322A129AC000674743 /* Explore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Explore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF1EA352A129AC000674743 /* ExploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreApp.swift; sourceTree = "<group>"; };
 		2AF1EA372A129AC000674743 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AF1EA392A129AC200674743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AF1EA3C2A129AC200674743 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AF1EA472A14CEAF00674743 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +58,13 @@
 		2AF1EA342A129AC000674743 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				2AA198DB2A34DF4000C4D18F /* Info.plist */,
 				2AF1EA352A129AC000674743 /* ExploreApp.swift */,
 				2AF1EA372A129AC000674743 /* ContentView.swift */,
 				2AF1EA392A129AC200674743 /* Assets.xcassets */,
+				2AF1EA472A14CEAF00674743 /* Explosion.sks */,
+				2AA198D92A34DF3200C4D18F /* space.ttf */,
+				2AA198DC2A34E04D00C4D18F /* fasthand.ttf */,
 				2AF1EA3B2A129AC200674743 /* Preview Content */,
 			);
 			path = Explore;
@@ -126,7 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF1EA3D2A129AC200674743 /* Preview Assets.xcassets in Resources */,
+				2AA198DA2A34DF3200C4D18F /* space.ttf in Resources */,
 				2AF1EA3A2A129AC200674743 /* Assets.xcassets in Resources */,
+				2AA198DD2A34E04D00C4D18F /* fasthand.ttf in Resources */,
+				2AF1EA482A14CEAF00674743 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = GWT62A5KS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Explore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = GWT62A5KS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Explore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
